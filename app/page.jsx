@@ -403,10 +403,10 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="md:py-24 py-12 px-4 bg-secondary corner-gradient-bl">
-        <div className="max-w-6xl mx-auto">
+      <section className="md:py-24 py-12 px-4 bg-secondary ">
+        <div className="md:max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold text-center mb-12">My Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="md:grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: GraduationCap,
