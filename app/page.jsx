@@ -262,7 +262,7 @@ const stats = [
 ];
 
 export default function Home() {
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef(null);
   const [currentAppIndex, setCurrentAppIndex] = useState(0);
   const [showWhatsApp, setShowWhatsApp] = useState(true);
 
