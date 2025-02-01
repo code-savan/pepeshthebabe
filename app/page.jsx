@@ -293,7 +293,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-background to-secondary w-full">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center bg-[url('/hero.png')] bg-cover bg-center">
+      <section className="relative min-h-screen flex items-center bg-[url('/hero.png')] bg-cover bg-center w-full">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
         <div className="container relative z-10 mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -342,12 +342,12 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="md:py-24 py-12 px-4 bg-background corner-gradient-tr">
-        <div className="max-w-6xl mx-auto">
+      <section className="md:py-24 py-12 px-4 bg-background corner-gradient-tr w-full">
+        <div className="md:max-w-6xl mx-auto">
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-5">
               <div className="sticky top-8">
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden mb-6">
+                <div className="relative rounded-2xl overflow-hidden mb-6">
                   <img
                     src="/about.png"
                     alt="Patience Ikpor"
