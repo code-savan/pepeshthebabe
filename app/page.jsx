@@ -204,7 +204,7 @@ const apps = [
             {app.screenshots.map((screenshot, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-[calc(100%-1rem)] md:w-[calc(25%-1rem)] rounded-3xl overflow-hidden border-8 border-black bg-black"
+                className="flex-shrink-0 w-[calc(100%-1rem)] h-fit md:w-[calc(25%-1rem)] rounded-3xl overflow-hidden border-8 border-black bg-black"
               >
                 <img
                   src={screenshot}
