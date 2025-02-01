@@ -424,7 +424,7 @@ export default function Home() {
                 description: "Comprehensive assistance from university selection to arrival in your destination country.",
               },
             ].map((service, index) => (
-              <div key={index} className="">
+              <div key={index} className="mb-2 md:mb-0">
                 <Card className="group hover:shadow-lg transition-all duration-300 bg-background/50 backdrop-blur-md">
                   <CardHeader>
                     <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
