@@ -291,7 +291,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background to-secondary">
+    <main className="min-h-screen bg-gradient-to-b from-background to-secondary w-full">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center bg-[url('/hero.png')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40" />
