@@ -209,7 +209,7 @@ const apps = [
                 <img
                   src={screenshot}
                   alt={`${app.name} Screenshot ${index + 1}`}
-                  className="w-full md:h-fit h-[450px] object-cover rounded-2xl"
+                  className="w-full md:h-fit h-full object-cover rounded-2xl"
                 />
               </div>
             ))}
