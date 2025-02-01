@@ -119,6 +119,7 @@ const apps = [
         "/2.webp",
         "/3.webp",
         "/4.webp",
+        "/5.webp",
       ],
     },
     {
@@ -127,10 +128,11 @@ const apps = [
       refLink: "https://nicki.app/patience",
       about: "On Nicki, I share my journey in international education consulting, behind-the-scenes looks at the visa application process, and host live Q&A sessions. It's a great way to learn more about studying abroad while earning rewards through the platform.",
       screenshots: [
-        "https://images.unsplash.com/photo-1616469829484-2d98fa796b61?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1616469829941-d63c84a44642?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1616469828462-3e635d09d7ea?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1616469829581-73886d59bc73?auto=format&fit=crop&q=80",
+        "/n1.webp",
+        "/n2.webp",
+        "/n3.webp",
+        "/n4.webp",
+        "/n5.webp",
       ],
     },
   ];
